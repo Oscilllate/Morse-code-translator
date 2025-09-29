@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+button {
+    border: none;
+    background: none;
+    color: white;
+}
+
+#morseText {
+    resize: none;      /* disables resizing completely */
+    overflow: hidden;  /* needed for auto-growing */
+    border-radius: 15px;
+}
+
+::placeholder {
+    color: gray;
+    opacity: 1; /* Firefox */
+}
